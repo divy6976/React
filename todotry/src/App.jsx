@@ -3,9 +3,14 @@ import ThemeProvider from "./context/ThemeProvider";
 import TodoContext from "./context/todoContext";
 import TodoForm from "./components/TodoForm";
 import TodoItem from "./components/TodoItem";
+import { useEffect } from "react";
+import { useState } from "react";
 
 function AppContent() {
-  const { todos } = useContext(TodoContext); // ✅ context ke andar
+  const { todos, setTodos } = useContext(TodoContext); // ✅ context ke andar
+
+
+
 
   return (
     <>
