@@ -104,3 +104,12 @@ slice whi se smjana
 
 
 wrap krna ya toh app me krlo ya main me privder lgage ke krlo dekhlena reduxtooltry folder me
+
+
+-----------------------------------------------------------------
+
+appwrite use -
+
+.env → conf.js → Appwrite Setup (Project → DB → Collection → Attributes) → Auth Layer
+
+Migration ke liye sirf Auth Layer ya service layer ko update karna padega, baki code unaffected rahega.
